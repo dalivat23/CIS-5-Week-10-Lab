@@ -13,8 +13,8 @@ int main() {
   swap_values(x, y);
   std::cout << "After: " << x << " " << y << "\n";
 
-  int* p = x;
-  std::cout << "x via pointer: " << p* << "\n";
+  int* p = &x;
+  std::cout << "x via pointer: " << *p << "\n";
 
   return 0;
 }
